@@ -34,6 +34,7 @@ void Notepad::on_actionOpen_triggered()
     }
     QTextStream in(&file);
     QString text = in.readAll();
+    ui->textEdit->setText(text);
     file.close();
 }
 
