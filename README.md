@@ -1,1 +1,1 @@
-Tic-Tac-Toe/README.md
+README.md
